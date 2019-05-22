@@ -16,12 +16,12 @@ function getDriver1 (browser){
     driver.manage().window().maximize();
     return driver;
 }
-JavaScript
-//Driver refers to Selenium Driver
-driver.takeScreenshot().then(function(data){
-   var base64Data = data.replace(/^data:image\/png;base64,/,"")
-   fs.writeFile("out.png", base64Data, 'base64', function(err) {
-        if(err) console.log(err);
-   });
-});
 
+//Driver refers to Selenium Driver
+// Carlos: This is broken because `driver` is not defined anywhere
+// driver.takeScreenshot().then(function(data) {
+//     var base64Data = data.replace(/^data:image\/png;base64,/,"")
+//     fs.writeFile("out.png", base64Data, 'base64', function(err) {
+//         if(err) console.log(err);
+//     });
+// });
