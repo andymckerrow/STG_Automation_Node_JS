@@ -1,0 +1,26 @@
+{
+  "name": "jautomationschallenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenge6.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^74.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andymckerrow/JautomationSchallenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andymckerrow/JautomationSchallenges/issues"
+  },
+  "homepage": "https://github.com/andymckerrow/JautomationSchallenges#readme"
+}
